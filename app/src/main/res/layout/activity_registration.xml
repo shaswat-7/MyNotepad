@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".RegistrationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_reg"
+        android:hint="Email:"
+        android:background="@drawable/item_background"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_reg"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:background="@drawable/item_background"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:text="Registration"
+        android:id="@+id/btn_reg"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign In here"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/singin_reg"
+        android:padding="10dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".DetailsActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/details_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="15dp"
+        android:textColor="@color/date_color"
+        android:id="@+id/date_details"
+        android:text="18 may 2018"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="15dp"
+        android:textColor="@color/date_color"
+        android:id="@+id/title_details"
+        android:text="Title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="15dp"
+        android:textColor="@color/date_color"
+        android:id="@+id/description_details"
+        android:text="Desription"/>
+
+
+</LinearLayout>

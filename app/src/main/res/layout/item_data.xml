@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/item_back_color"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title.."
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:id="@+id/title_xml"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@android:color/white"
+               android:padding="5dp"
+               android:maxLines="1"
+               android:layout_below="@+id/title_xml"
+               android:id="@+id/description_item"
+               android:textAppearance="?android:textAppearanceLarge"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10/07/2019"
+                android:padding="10dp"
+                android:textColor="@color/date_color"
+                android:id="@+id/date_xml"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceSmall"
+                />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
